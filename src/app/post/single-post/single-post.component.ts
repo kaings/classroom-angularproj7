@@ -6,7 +6,7 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./single-post.component.css']
 })
 export class SinglePostComponent implements OnInit {
-  @Input() title = 'Default Title';
+  // @Input() title = 'Default Title';  // @Input() title = ... is not a MUST, it also works without it
   constructor() { }
 
   ngOnInit() {
